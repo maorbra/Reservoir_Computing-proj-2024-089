@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+reservoirpy = "*"
+hyperopt = "*"
+scikit-learn = "*"
+numpy = "*"
+matplotlib = "*"
+jupyterlab = "*"
+lyon = "*"
+librosa = "*"
+seaborn = "*"
+moku = "*"
+pyvisa = "*"
+pymeasure = "*"
+pyqt5 = "*"
+sympy = "*"
+h5py = "*"
+picosdk = "*"
+picoscope = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

@@ -1,0 +1,1 @@
+python rc_hyperopt.py --seed 2 --hp-max-evals 5000 --duration 1000 --n-cross-validations 25 --dataset ..\data\digits_lyon_jackson_0.2.pickle --loss-metric wer --attempts 1000 --no-calibrate --batch 8 --hp-space hp_space_digits.json

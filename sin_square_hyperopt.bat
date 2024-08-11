@@ -1,0 +1,1 @@
+python sin_square.py && python rc_hyperopt.py --seed 1 --hp-space hp_space_sin_square.json --hp-max-evals 5000 --duration 1000 --attempts 1000 --calibrate-every 10 --dataset ..\data\sin_square.pickle --test-size 0.5 --n-cross-validations 25 --inst-per-trial 1 --batch 32 --loss-metric nmse
